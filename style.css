@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+.weak{
+    color: red;
+}
+.medium{
+    color: orange;
+}
+.strong{
+    color: green;
+}
+body{
+    height: 100Vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in .4s;
+}
+body.weak{
+    background-color: rgb(78, 15, 15);
+}
+body.medium{
+    background-color: rgb(255, 223, 164);
+}
+body.strong{
+    background-color: #80bae9;
+}
+#passwd{
+    margin-right: 10px;
+}
+#showoff{
+    margin: -50px 0 90px 0;
+    font-size: .5em;
+    color: white;
+    pointer-events: none;
+    user-select: none;
+}
+#showoff span{
+    font-family: 'The Nautigal', cursive;
+    font-size: 6em;
+}
